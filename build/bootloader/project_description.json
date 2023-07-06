@@ -1,0 +1,26 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/bootloader/subproject",
+    "build_dir":          "C:/Users/kimjw/OneDrive/Work/Wizmik/esp-idf-example/blink/build/bootloader",
+    "config_file":        "C:/Users/kimjw/OneDrive/Work/Wizmik/esp-idf-example/blink/sdkconfig",
+    "config_defaults":    "",
+    "bootloader_elf":     "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "build_type":         "flash_app",
+    "git_revision":       "v5.1-rc2",
+    "target":             "esp32s3",
+    "rev":                "",
+    "min_rev":            "0",
+    "max_rev":            "99",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32s3-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/efuse/Kconfig;C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/esp_common/Kconfig;C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/esp_hw_support/Kconfig;C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/esp_system/Kconfig;C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/freertos/Kconfig;C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/hal/Kconfig;C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/log/Kconfig;C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/newlib/Kconfig;C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/soc/Kconfig;C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/bootloader/Kconfig.projbuild;C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/esp_app_format/Kconfig.projbuild;C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/esp_rom/Kconfig.projbuild;C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/esptool_py/Kconfig.projbuild;C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp_app_format", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/bootloader", "C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/bootloader_support", "C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/efuse", "C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/esp_app_format", "C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/esp_common", "C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/esp_hw_support", "C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/esp_rom", "C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/esp_system", "C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/esptool_py", "C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/freertos", "C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/hal", "C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/log", "C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/bootloader/subproject/main", "C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/bootloader/subproject/components/micro-ecc", "C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/newlib", "C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/partition_table", "C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/soc", "C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/spi_flash", "C:/Users/kimjw/esp/esp-idf-v5.1-rc2/components/xtensa", "" ],
+    "debug_prefix_map_gdbinit": ""
+}
